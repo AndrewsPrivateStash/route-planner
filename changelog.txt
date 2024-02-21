@@ -1,0 +1,31 @@
+tss.exe  change log
+
+v0.80   2019-03-21
+- added centroid routing and tests
+
+v0.70   2019-02-15
+- modified path logic
+
+v0.61   2019-02-06
+- modified output of clusters to input format so can be piped
+- added check for cluster >= count of nodes and provides recommendation when error occurs
+- added fmt flag to control output formating
+
+v0.60   2019-02-05
+- added k-means clustering and output
+
+v0.52    2019-01-29
+- added anchor mechanic to allow rotating results to point nearest the provided coords
+- added error checking for passed flags and softer error messages (removed panics)
+- added automatic removal of duplicates
+- modified route file name to append "_route" to outFile name to make multiple runs easier and scriptable
+- added centroid calculation, route now plots center as blue marker
+- added centroid location to outfile header with avg distance to all nodes from center
+- added opt method "none" to skip optimization; this allows for rotation only calls
+- added test for non-member nearest calculation
+- added test for anchor parsing
+- added test for centroid calculations and verification of concurrent parity
+
+
+
+
