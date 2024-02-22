@@ -1,4 +1,4 @@
-This project aims to replace the dependence on propriety computational software (Mathematica) to cluster, route and image rapid deployment data.
+This project aims to replace the dependence on proprietary computational software (Mathematica) to cluster, route and image rapid deployment data.
 
 
 * _Pre Conditions_: tss.exe and in.txt are in the same directory when run
